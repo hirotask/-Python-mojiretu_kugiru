@@ -14,8 +14,7 @@ class Main(QWidget):
     def mainUI(self):
         self.setGeometry(300,300,300,300)
         self.setWindowTitle('文字区切り君')
-        
-        self.label = QLabel('文字列')
+
         self.lineEdit = QLineEdit(self)
         self.button = QPushButton('区切る！',self)
         self.button.clicked.connect(self.buttonClicked)
